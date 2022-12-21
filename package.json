@@ -1,0 +1,17 @@
+{
+  "name": "mf-checkout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.9.0",
+    "@playwright/test": "^1.28.1",
+    "playwright": "^1.28.1"
+  }
+}
