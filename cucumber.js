@@ -2,7 +2,7 @@
 module.exports = {
     default: {
       paths: ["tests/login.feature"],
-      import: ["steps/"],
+      import: ["steps/login-def.mjs"],
       publishQuiet: true,
       
     }
