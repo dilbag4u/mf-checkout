@@ -29,7 +29,7 @@ let page=null;
 let context=null;
 let browser=null;
 BeforeAll(async () =>  {
-  browser= await chromium.launch({headless:false});
+  browser= await chromium.launch({headless:true});
   context = await browser.newContext();
   // context.addCookies([{name:"mf-checkout", value: true , url: "www.matchesfashion.com" , path: "/", domain: "matchesfashion.com"}]);
   //context.setDefaultTimeout(800000);
